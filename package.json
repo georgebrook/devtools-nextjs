@@ -1,0 +1,35 @@
+{
+  "name": "rfq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n next,icons \"next dev --turbopack\" \"npm run watch:sprite\"",
+    "watch:sprite": "chokidar 'assets/icons/*.svg' -c 'npm run generate:sprite'",
+    "generate:sprite": "node scripts/generate-sprite.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.1.2",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.5.3",
+    "sass": "^1.87.0",
+    "svg-sprite": "^2.0.4",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5"
+  }
+}

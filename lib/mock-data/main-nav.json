@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Elements",
+    "href": "/elements"
+  },
+  {
+    "label": "Console",
+    "href": "/console"
+  },
+  {
+    "label": "Sources",
+    "href": "/sources"
+  },
+  {
+    "label": "Network",
+    "href": "/network"
+  },
+  {
+    "label": "Performance",
+    "href": "/performance"
+  },
+  {
+    "label": "Memory",
+    "href": "/memory"
+  },
+  {
+    "label": "Application",
+    "href": "/application"
+  },
+  {
+    "label": "Lighthouse",
+    "href": "/lighthouse"
+  }
+]

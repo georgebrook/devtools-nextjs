@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Select Element",
+    "iconName": "selector",
+    "iconPosition": "only",
+    "iconSize": 23
+  },
+  {
+    "label": "Emulate",
+    "iconName": "devices",
+    "iconPosition": "only",
+    "iconSize": 21
+  }
+]

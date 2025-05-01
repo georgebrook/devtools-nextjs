@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html,
+body {
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #474747;
+  --foreground-active: #0C56D0;
+  --border-accent: #d3e3fd;
+  --background-accent: #edf2fa;
+  --background-hover-accent: #e3e8ee;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    /* todo */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto), Helvetica, Arial, sans-serif;
+}

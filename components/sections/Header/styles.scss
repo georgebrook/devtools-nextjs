@@ -1,0 +1,15 @@
+.header {
+  .pipe {
+    background-color: var(--background-accent);
+    border-top: 1px solid var(--border-accent);
+    border-bottom: 1px solid var(--border-accent);
+    padding: 0 2px;
+  }
+
+  .pipe__line {
+    margin: 0 1px 0 2px;
+    width: 2px;
+    height: 20px;
+    background-color: var(--border-accent);
+  }
+}

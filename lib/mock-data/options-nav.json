@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Settings",
+    "iconName": "cog",
+    "iconPosition": "only",
+    "iconSize": 20
+  },
+  {
+    "label": "Docking Position",
+    "iconName": "dots-vertical",
+    "iconPosition": "only",
+    "iconSize": 20
+  },
+  {
+    "label": "Close",
+    "iconName": "close",
+    "iconPosition": "only",
+    "iconSize": 15
+  }
+]
