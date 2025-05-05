@@ -4,15 +4,6 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import { fetchNav } from '@lib/api';
 
-export const metadata: Metadata = {
-  title: 'Your Site Title',
-  description: 'Your site description',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
-};
-
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -39,7 +30,7 @@ export default async function RootLayout({
           toolsNavItems={toolsNav}
           optionsNavItems={optionsNav}
         />
-        <main>{children}</main>
+        <main className='h-full'>{children}</main>
       </body>
     </html>
   );
